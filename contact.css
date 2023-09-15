@@ -1,0 +1,24 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Navigation / header*/
+
+.navigation-items {
+    display: flex;
+    justify-content: end;
+    gap: 35px;
+    list-style: none;
+}
+.navigation-item {
+    text-decoration: none !important;
+    color: inherit;
+}
+a:link {
+    text-decoration:none;
+    }
